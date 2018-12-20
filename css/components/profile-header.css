@@ -1,0 +1,23 @@
+.profile {
+    width: 87.5%;
+    margin: 0 auto;
+}
+
+.profile label {
+	width: 100%;
+	border-bottom: 1px solid #EAEFF2;
+	display: block;
+	padding: .8em 0;
+	box-sizing: border-box;
+}
+
+.profile label img {
+    width: 18px;
+}
+
+.profile label input {
+        border-style: none;
+        color: #EAEFF2;
+        font-size: 1em;
+        padding-left: .8em;
+}

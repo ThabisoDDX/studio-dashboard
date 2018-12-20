@@ -1,0 +1,70 @@
+.job-application {
+    margin: 1em auto;
+}
+
+.job-application .vacancy {
+    padding: 1em 0;
+}
+
+.job-application h4 img:first-of-type {
+        float: left;
+        width: 20px;
+        margin-right: 1em;
+        padding: .1em 0;
+}
+
+.job-application h4 img:last-of-type {
+    width: 12px;
+    float: right;
+    margin: .5em 0;
+}
+
+.job-application .job-description {
+    clear: both;
+    padding: 1em 0;
+}
+
+.job-application .job-title .employment-type {
+    clear: both;
+    padding-left: 2.55em;
+    padding-top: .8em;
+    color: #7B8E9F;
+    font-size: .875em;
+}
+
+.job-application .job-title .employment-type .details li {
+    margin-bottom: .5em;
+    padding-bottom: .8em;
+    border-bottom: 1px solid #EAEFF2;
+}
+
+.job-application .job-title .employment-type form {
+   margin-top: 1em;
+}
+
+.job-application .job-title .employment-type form ul {
+    float: left;
+}
+
+.job-application .job-title .employment-type form ul:first-of-type {
+    margin-right: 3em;
+ }
+
+ .job-application .job-title .employment-type form li {
+    margin-bottom: .5em;
+ }
+
+ .job-application .job-title .employment-type form input {
+    margin: 0;
+    margin-right: 1em;
+ }
+
+ .job-application .job-description p {
+    font-size: .875em;
+    clear: both;
+    padding-left: 2.55em;
+    color: #7B8E9F;
+    margin-top: .8em;
+ }
+
+

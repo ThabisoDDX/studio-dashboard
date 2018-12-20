@@ -1,0 +1,42 @@
+.header {
+    width: 100%;
+    height: 50px;
+    background: #ffffff;
+    box-shadow: 0 3px 3px rgba(0,0,0,.1);
+    display: inline-block;
+    text-align: center;
+    padding: .9em 0;
+    box-sizing: border-box;
+}
+
+.header .open {
+    width: 30px;
+    float: left;
+}
+
+.header .logo {
+    width: 35%;
+    height: auto;
+}
+
+.header .dots {
+    width: 5px;
+    float: right;
+}
+
+@media only screen and (min-width: 767px) {
+    
+    .header {
+        height: 100px;
+        padding: 1.4em 0;
+    }
+
+    .header .open {
+        width: 80px;
+    }
+
+    .header .dots {
+        width: 14px;
+    }
+}
+
