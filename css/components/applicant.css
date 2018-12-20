@@ -184,6 +184,10 @@
     .application .applicant .card .approve .confirmation-message input {
         font-size: 1em;
     }
+
+    .sidebar {
+        display: block;
+    }
 }
 
 

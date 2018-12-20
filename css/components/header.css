@@ -20,23 +20,28 @@
 }
 
 .header .dots {
-    width: 5px;
     float: right;
+    width: 3px;
+    margin: .2em 0;
 }
-
 @media only screen and (min-width: 767px) {
     
     .header {
-        height: 100px;
-        padding: 1.4em 0;
+        height: 60px;
+        padding: 1em 0;
     }
 
     .header .open {
-        width: 80px;
+        width: 45px;
+    }
+
+    .header .logo {
+        width: 26%;
     }
 
     .header .dots {
-        width: 14px;
+        width: 4px;
+        margin: .3em 0;
     }
 }
 
