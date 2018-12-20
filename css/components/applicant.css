@@ -131,4 +131,59 @@
     float: right;
 }
 
+@media only screen and (min-width: 767px) {
+
+    .application .applicant .card {
+        padding: 1.5em 3em;
+    }
+    
+    .application .applicant .card img {
+        width: 70px;
+    }
+
+    .application .applicant .card span {
+        font-size: .875em;
+    }
+
+    .application .applicant .card footer {
+        padding: 1em 0;
+    }
+
+    .application .applicant .card footer button:first-of-type {
+        float: left;
+        margin-right: 1em;
+    }
+
+    .application .applicant .card footer button:first-of-type, 
+    .application .applicant .card footer button:last-of-type,
+    .application .applicant .card .approve .confirmation-message button {
+        font-weight: 600;
+        width: 100px;
+        height: 40px;
+    }
+
+    .application .applicant .card .confirmation-message h3 {
+        margin: .8em 0;
+    }
+
+    .application .applicant .card p {
+        font-size: 1em;
+        margin-left: 5.5em;
+    }
+
+    .application .applicant .card .withdraw .confirmation-message button {
+        width: 80px;
+        height: 40px;
+        font-weight: 600;
+    }
+
+    .application .applicant .card .approve .confirmation-message label {
+        padding: 1.8em 0;
+    }
+
+    .application .applicant .card .approve .confirmation-message input {
+        font-size: 1em;
+    }
+}
+
 
