@@ -67,4 +67,35 @@
     margin-top: .8em;
  }
 
+ @media only screen and (min-width: 767px) {
+    
+    .job-application h4 img:first-of-type {
+        width: 30px;
+        padding: .05em 0;
+    }
+
+    .job-application h4 img:last-of-type {
+        width: 20px;
+    }
+
+    .job-application .job-title .employment-type {
+        font-size: 1.1em;
+        padding-left: 3em;
+    }
+
+    .job-application .job-title .employment-type .details li {
+        margin-bottom: 1em;
+        padding-bottom: 1em;
+    }
+
+    .job-application .job-title .employment-type form ul:first-of-type {
+        margin-right: 10em;
+    }
+
+    .job-application .job-description p {
+        font-size: 1em;
+        padding-left: 3em;
+    }
+ }
+
 
