@@ -10,7 +10,7 @@
     height: 50px;
     background-color: #2A4765;
     color: #fff;
-    text-decoration: navajowhite;
+    text-decoration: none;
     padding: .5em 1.2em;
     border-bottom: 1px solid rgba(234, 239, 242, .1);
     box-sizing: border-box;
@@ -28,5 +28,17 @@
 }
 
 @media only screen and (min-width: 767px) {
-    
+    .sidebar {
+        display: block;
+    }
+
+    .sidebar nav a {
+        font-size: 1.1em;
+        height: 60px;
+        padding: .7em 2.6em;
+    }
+
+    .sidebar nav a img {
+        width: 35px;
+    }
 }
