@@ -186,4 +186,26 @@
     }
 }
 
+@media only screen and (min-width: 1279px) {
+    .application {
+        width: 45%;
+        box-shadow: 0 0 5px rgba(0,0,0,.1);
+        padding: 2em 0;
+        box-sizing: border-box;
+        float: right;
+        margin-right: 2em;
+    }
+
+    .application .applicant .card {
+        padding: 1.5em 2em;
+    }
+
+    .application .applicant .card .withdraw .confirmation-message {
+        margin: 1em 0;
+    }
+}
+
+
+
+
 

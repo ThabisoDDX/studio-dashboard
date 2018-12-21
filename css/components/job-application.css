@@ -98,4 +98,26 @@
     }
  }
 
+ 
+@media only screen and (min-width: 1279px) {
+    
+    .job-application {
+        width: 45%;
+        margin: 0 2em;
+        float: left;
+        box-shadow: 0 0 5px rgba(0,0,0,.1);
+        padding: 1em 1.8em;
+        box-sizing: border-box;
+    }
+
+    .application {
+        width: 45%;
+        box-shadow: 0 0 5px rgba(0,0,0,.1);
+        padding: 2em 0;
+        box-sizing: border-box;
+        float: right;
+        margin-right: 2em;
+    }
+}
+
 
