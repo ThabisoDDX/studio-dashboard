@@ -25,6 +25,10 @@ h5 {
     color: #2A4765;
 }
 
+button {
+    cursor: pointer;
+}
+
 .wrapper {
     width: 87.5%;
     margin: 0 auto;
