@@ -178,7 +178,7 @@
     }
 }
 
-@media only screen and (min-width: 767px) {
+@media only screen and (min-width: 1279px) {
     .dashboard .notice {
         display: inline-block;
         width: 48%;
