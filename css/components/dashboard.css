@@ -144,6 +144,11 @@
         margin-top: .2em;
     }
 
+    .dashboard .notice {
+        display: inline-block;
+        width: 100%;
+    }
+
     .dashboard .notice:last-of-type .instructor article {
         padding: 1.5em .5em;
     }
