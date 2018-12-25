@@ -47,9 +47,10 @@
     
     .sidebar {
         display: block;
-        float: left;
+        position: absolute;
+        top: 0;
+        bottom: 0;
         width: 140px;
-        height: auto;
         background-color: #fff;
         box-shadow: 3px 0 25px rgba(0, 0, 0, .1);
     }
